@@ -39,7 +39,7 @@ var con = mysql.createConnection({
           });
         });
 
-
-server.listen(3000,()=>{
+const post = process.env.PORT || 3000 ;
+server.listen(post,()=>{
     console.log('server is running');
 });
