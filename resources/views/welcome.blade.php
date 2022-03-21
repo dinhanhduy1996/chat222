@@ -47,8 +47,8 @@
     </html>
        <script>
            $(function(){
-               let ip_address = '127.0.0.1';
-               let socket_port ='3000';
+               let ip_address = 'https://chat123ert.herokuapp.com';
+               let socket_port ='80';
                let socket = io(ip_address+":"+socket_port);
 
                $("form").submit(function() {
